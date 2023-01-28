@@ -202,26 +202,26 @@ $(function () {
 	});
     
     /*========== Scroll To Top  ==========*/
-    // function scrollUp() {
-    //     if (win.scrollTop() >= 1200) {
-    //         scrollToTop.addClass("active");
-    //     } else {
-    //         scrollToTop.removeClass("active");
-    //     }
-    // }
+    function scrollUp() {
+        if (win.scrollTop() >= 1200) {
+            scrollToTop.addClass("active");
+        } else {
+            scrollToTop.removeClass("active");
+        }
+    }
     
-    // scrollUp();
+    scrollUp();
     
-    // win.on("scroll", function () {
-    //     scrollUp();
-    // });
+    win.on("scroll", function () {
+        scrollUp();
+    });
     
-    // scrollToTop.on("click", function (e) {
-    //     e.preventDefault();
-    //     htmlBody.animate({
-    //         scrollTop: 0
-    //     }, 800);
-    // });
+    scrollToTop.on("click", function (e) {
+        e.preventDefault();
+        htmlBody.animate({
+            scrollTop: 0
+        }, 800);
+    });
 
     /*========== Fire wow js Plugin  ==========*/
     new WOW().init();
