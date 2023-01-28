@@ -1475,8 +1475,8 @@ h6 {
 /* --------------------------------------
    14. Scroll To Top
 -----------------------------------------*/
-
-/* .scroll-top {
+/* 
+.scroll-top {
     position: fixed;
     font-size: 16px;
     -webkit-transform: rotate(-90deg);
@@ -1489,50 +1489,39 @@ h6 {
     color: #fbf4e0;
 	letter-spacing: .4px;
     z-index: 999;
-} */
+}
 
-/* .scroll-top.active {
+.scroll-top.active {
     bottom: 30px;
     right: 20px;
 }
 
 .scroll-top:hover {
     color: #fdd05a;
-} */
+}
 
-/* .scroll-top:before {
+.scroll-top:before {
     content: '';
 	position: absolute;
 	top: -12px;
-    left: 63px;
+    left: 43px;
     width: 1px;
-    height: 51px;
-	background-color: #fbf4e0;
-	-webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+    height: 20px;
+    
+	background-color: #1f2233;
+    -webkit-transform: rotate(-270deg);
+    -moz-transform: rotate(-270deg);
+    -ms-transform: rotate(-270deg);
+    -o-transform: rotate(-270deg);
+    transform: rotate(-270deg);
+	border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid black;
 }
 
 .scroll-top:hover:before {
     background-color: #fdd05a;
-} */
-
-/* mine */
-
-/* .scroll-top {
-    width: 0; 
-    height: 0; 
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid black;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    cursor: pointer;
-    display: none;
-} */
+}  */
 
 /* --------------------------------------
    15. Media Queries
