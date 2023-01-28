@@ -569,44 +569,7 @@ h6 {
     margin-bottom: 50px;
 }
 
-.home .down {
-    position: absolute;
-    bottom: 32%;
-    right: 0;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    font-size: 14px;
-}
 
-.home .down a {
-    color: #fbf4e0;
-}
-
-.home .down:hover a {
-    color: #fdd05a;
-}
-
-.home .down:before {
-	content: "";
-    position: absolute;
-    bottom: -18px;
-    left: -36px;
-    width: 1px;
-    height: 55px;
-    background-color: #fbf4e0;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-}
-
-.home .down:hover:before {
-    background-color: #fdd05a;
-}
 
 .demo2 .home {
     background: url('../images/home2.jpg');
