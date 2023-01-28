@@ -1513,7 +1513,7 @@ h6 {
    14. Scroll To Top
 -----------------------------------------*/
 
-.scroll-top {
+/* .scroll-top {
     position: fixed;
     font-size: 16px;
     -webkit-transform: rotate(-90deg);
@@ -1526,18 +1526,18 @@ h6 {
     color: #fbf4e0;
 	letter-spacing: .4px;
     z-index: 999;
-}
+} */
 
-.scroll-top.active {
+/* .scroll-top.active {
     bottom: 30px;
     right: 20px;
 }
 
 .scroll-top:hover {
     color: #fdd05a;
-}
+} */
 
-.scroll-top:before {
+/* .scroll-top:before {
     content: '';
 	position: absolute;
 	top: -12px;
@@ -1554,7 +1554,22 @@ h6 {
 
 .scroll-top:hover:before {
     background-color: #fdd05a;
-}
+} */
+
+/* mine */
+
+/* .scroll-top {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid black;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+} */
 
 /* --------------------------------------
    15. Media Queries
