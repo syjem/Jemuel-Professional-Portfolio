@@ -1006,6 +1006,7 @@ h6 {
 -----------------------------------------*/
 
 .facts {
+    display: none;
     position: relative;
 	background: url('../images/shape.png');
 	-webkit-background-size: cover;
